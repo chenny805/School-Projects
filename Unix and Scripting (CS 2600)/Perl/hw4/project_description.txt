@@ -1,0 +1,21 @@
+Description:
+
+	Write a Perl script to take as input, the output of ps aux | grep pts and prints a 	table of the pts entry followed by the command ( up to the first 60 chars only), 	sorted by pts entry and then command.
+
+Input:
+	Your program will be getting data from piped output of ps aux | grep pts.
+
+Output:
+	The output will be a basic table, no fancy formatted required of the pts entry and 	the command (up to 60 chars).
+
+
+
+Sample Execution:
+	$ ps aux | grep pts | ./homework4.pl
+	pts/0   bash
+	pts/0   tmux
+	pts/1   -bash
+	pts/1   /usr/bin/perl ./homework4_solution.pl
+	pts/1   grep pts
+	pts/1   ps aux
+	$
