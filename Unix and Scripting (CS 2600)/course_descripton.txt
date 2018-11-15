@@ -1,0 +1,1 @@
+Fundamentals of the UNIX operating system and scripting. Tools for file management, communication, process control, and program development. Introduction to various UNIX shells and programming (scripting) in the shells.
