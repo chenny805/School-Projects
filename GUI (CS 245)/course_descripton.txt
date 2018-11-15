@@ -1,0 +1,1 @@
+Computer interfaces. Usability of interactive systems. GUI development processes. GUI components. Input and viewing devices. Event-handling. Animation use in GUIs. Problem-solving techniques.

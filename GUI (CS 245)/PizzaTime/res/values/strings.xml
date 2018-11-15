@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaTime</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Pick">Pick Your Pizza</string>
+    <string-array name="txtGroup">
+        <item >The Monster</item>
+        <item >Large Pepperoni</item>
+        <item >Large Sausage and Olive</item>
+        <item >Vegans Delight</item>
+    </string-array>
+
+</resources>

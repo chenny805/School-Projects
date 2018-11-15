@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizzaback"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.deitel.pizzatime.MainActivity" >
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Total"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtTotalMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStartOver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:text="The Total Is:"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtNumOfPizzas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:background="@android:color/holo_green_light"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="How Many Pizzas?"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="28sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNumOfPizzas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:entries="@array/txtGroup"
+        android:gravity="center_horizontal"
+        android:prompt="@string/Pick" />
+
+    <Button
+        android:id="@+id/btnStartOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Start Over"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Pick Your Pizza"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+</RelativeLayout>
