@@ -1,0 +1,1 @@
+Error analysis, zeros of a function, systems of linear equations, interpolation, Chebyshev approximation, least squares approximation, numerical integration and differentiation, random processes.

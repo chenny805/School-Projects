@@ -1,0 +1,1 @@
+Overview of the different application areas of AI. Introduction to basic AI concepts and techniques such as heuristic search, knowledge representation, automated reasoning. In-depth discussion of several AI application areas: their specific problems, tools and techniques.

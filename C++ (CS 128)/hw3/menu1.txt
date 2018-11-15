@@ -1,0 +1,3 @@
+burger 4.00
+pasta 6.00
+water 2.00

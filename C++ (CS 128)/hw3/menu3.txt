@@ -1,0 +1,5 @@
+burrito 5.00
+soda 2.00
+taco 2.50
+beer 3.00
+water 0.50

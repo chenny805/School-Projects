@@ -1,0 +1,15 @@
+Group Member:
+    Alex (Wei) Chen
+    Kacy Rowe
+
+
+This program will take in multiple menu text files and average the prices of duplicate items.
+It will list the same item multiple times but the price will be averaged.
+You must submit text files as command line arguments for the program to work.
+
+Format of text file example:
+
+hamburger 5.00
+pizza 3.25
+chips 2.50
+

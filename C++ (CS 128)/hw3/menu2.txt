@@ -1,0 +1,6 @@
+hotdog 1.50
+pizza 2.00
+burger 5.00
+fries 1.00
+soda 1.00
+water 0.50

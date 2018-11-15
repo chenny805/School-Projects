@@ -1,0 +1,1 @@
+Basic concepts of computer software and programming. Data types, expressions, control structures, functions, file and stream I/O. Use of pointers and dynamic storage allocation. Structured and abstract data types. Problem-solving techniques.
