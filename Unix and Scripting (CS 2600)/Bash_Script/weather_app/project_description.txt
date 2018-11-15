@@ -1,1 +1,1 @@
-hi
+Create an program that returns the current local tempature using bash script.
