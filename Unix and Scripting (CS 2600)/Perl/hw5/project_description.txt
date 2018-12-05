@@ -1,1 +1,35 @@
-hi
+Description:
+
+	Write a script to see what's on channel 2.1, 4.1, and 7.1 right now.
+	Use https://nocable.org/tv-listings/bm95-pomona-ca-91768 as the source via wget:
+
+-----------------------------------------------------------------------------------------------------
+
+Input:
+	The input should the HTML page via wget:
+	$ wget -O - https://nocable.org/tv-listings/bm95-pomona-ca-91768 | ./homework5.pl
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Output:
+
+	The output will be as follows:
+
+	2.1 - The Ellen Degeneress Show
+	4.1 - NBC News
+	7.1 - Some Obscure Show
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Sample Execution:
+
+	$ wget -O - https://nocable.org/tv-listings/bm95-pomona-ca-91768 | ./homework5.pl
+	2.1 - The Ellen Degeneress Show
+	4.1 - NBC News
+	7.1 - Some Obscure Show
+	$
